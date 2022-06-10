@@ -6,7 +6,7 @@ function myFunction() {
     if (isNaN(x)) {
         text = "Es necesarios introducir un número válido";
     } else {
-        //si no ponemos parseFloat concatenaría x con y  
+        //si no ponemos parseFloat concatenaría x con precio  
         suma = parseFloat(x) * parseFloat(precio);
         text = new Intl.NumberFormat('de-DE').format(suma);
         
